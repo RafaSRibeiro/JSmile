@@ -3,15 +3,16 @@
 <smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
 	<nodes>
 		<cpt id="classesocial">
-			<state id="State0" />
-			<state id="State1" />
-			<probabilities>0.5 0.5</probabilities>
+			<state id="A" />
+			<state id="B" />
+			<state id="C" />
+			<probabilities>0.1 0.3 0.6</probabilities>
 		</cpt>
 		<cpt id="sexo">
 			<state id="Homem" />
 			<state id="Mulher" />
 			<parents>classesocial</parents>
-			<probabilities>0.537326257 0.462673743 0.537326257 0.462673743</probabilities>
+			<probabilities>0.7 0.3 0.537326257 0.462673743 0.45 0.55</probabilities>
 		</cpt>
 		<cpt id="FaixaEtaria">
 			<state id="i00a14" />
@@ -53,7 +54,7 @@
 				<barchart active="true" />
 			</node>
 			<node id="regiao">
-				<name>Quantidade de Cancer por Regi„o</name>
+				<name>Quantidade de Cancer por Regi√£o</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
@@ -61,7 +62,7 @@
 				<barchart active="true" width="274" height="108" />
 			</node>
 			<node id="doenca">
-				<name>DoenÁa</name>
+				<name>Doen√ßa</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
@@ -81,8 +82,8 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>344 187 392 217</position>
-				<barchart active="true" width="128" height="64" />
+				<position>347 187 395 217</position>
+				<barchart active="true" width="128" height="72" />
 			</node>
 		</genie>
 	</extensions>

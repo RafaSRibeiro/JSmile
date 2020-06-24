@@ -4,7 +4,6 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
 public class Controller {
@@ -12,7 +11,7 @@ public class Controller {
     private static final ObservableList<String> sexos = FXCollections.observableArrayList("Nenhum", "Homem", "Mulher");
     private static final ObservableList<String> faixaEtarias = FXCollections.observableArrayList("Nenhum", "i00a14", "i15a29", "i30a59", "i60a79", "i80ouMais");
     private static final ObservableList<String> regioes = FXCollections.observableArrayList("Nenhum", "CentroOeste", "Nordeste", "Norte", "Sudeste", "Sul");
-    private static final ObservableList<String> classeSociais = FXCollections.observableArrayList("Nenhum", "State0", "State1");
+    private static final ObservableList<String> classeSociais = FXCollections.observableArrayList("Nenhum", "A", "B", "C");
 
 
     @FXML
